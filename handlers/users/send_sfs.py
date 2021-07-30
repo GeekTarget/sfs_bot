@@ -7,7 +7,7 @@ from datetime import datetime
 
 async def scheduler(user_list):
     while True:
-        if datetime.now().hour == 10 and datetime.now().minute == 21:
+        if datetime.now().hour == 16 and datetime.now().minute == 00:
             new_list = list()
 
             for i in user_list:
